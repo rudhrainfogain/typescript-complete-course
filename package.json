@@ -1,14 +1,22 @@
 {
     "name": "typescript-complete-course",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "this is a project to learn typescript",
+    "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "lite-server"
     },
-    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/techpert/typescript-complete-course.git"
+    },
+    "author": "Rudhra Koul",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/techpert/typescript-complete-course/issues"
+    },
+    "homepage": "https://github.com/techpert/typescript-complete-course#readme",
     "devDependencies": {
         "lite-server": "^2.5.4"
     }
