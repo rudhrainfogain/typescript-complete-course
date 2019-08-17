@@ -1,14 +1,15 @@
 "use strict";
-var bankAccount = {
+var bankAcct = {
     money: 2000,
     deposit: function (value) {
         this.money += value;
     }
 };
-var myself = {
+var maself = {
     name: 'Rudhra',
-    bankAccount: bankAccount,
+    bankAccount: bankAcct,
     hobbies: ['Sports', 'Cooking']
 };
-myself.bankAccount.deposit(3000);
-console.log(myself);
+maself.bankAccount.deposit(3000);
+console.log(maself);
+//# sourceMappingURL=section2ExerciseSolution.js.map
