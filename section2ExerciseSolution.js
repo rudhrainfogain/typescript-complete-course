@@ -1,4 +1,3 @@
-"use strict";
 var bankAcct = {
     money: 2000,
     deposit: function (value) {
