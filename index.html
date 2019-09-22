@@ -5,14 +5,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Learning typescript</title>
-    <!––
-    <script src="rectangleMath.js">-->
-    <!–– </script>-->
-    <!––  <script src="circleMath.js">-->
-    <!––</script>-->
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        //set our base url reference path
+        SystemJS.config({
+            baseURL: '/',
+            packages: {
+                '/': {
+                    defaultExtensions: 'js'
+                }
+            }
+        });
 
-    <script src="namespacesDemo.js"></script>
-    <!–– tsc --outFile namespacesDemo.js rectangleMath.ts circleMath.ts namespacesDemo.ts -->
+        //load js/main.js
+        SystemJS.import('ModulesDemo.js');
+    </script>
+
 </head>
 
 <body>

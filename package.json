@@ -20,5 +20,8 @@
     "devDependencies": {
         "lite-server": "^2.5.4",
         "concurrently": "^4.1.2"
+    },
+    "dependencies": {
+        "systemjs": "^0.21.5"
     }
 }
