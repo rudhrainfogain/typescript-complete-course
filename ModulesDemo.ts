@@ -1,5 +1,8 @@
+//import only what is needed
 import { PI, calculateCircumference } from "./Math/circle";
+//import everything using an alias
 import * as Circle from "./Math/circle";
+//importing default exported function
 import Rectangle from "./Math/rectangle";
 
 console.log('circumference calculation using Math module ' + calculateCircumference(10));
